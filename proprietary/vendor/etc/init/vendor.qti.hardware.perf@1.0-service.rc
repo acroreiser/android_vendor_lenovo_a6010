@@ -1,4 +1,5 @@
 service vendor.perf-hal-1-0 /vendor/bin/hw/vendor.qti.hardware.perf@1.0-service
+    interface vendor.qti.hardware.perf@1.0::IPerf default
     class hal
     user root
     group system root readproc
