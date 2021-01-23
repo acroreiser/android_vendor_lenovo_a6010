@@ -3,5 +3,4 @@
     <privapp-permissions package="com.qualcomm.qcrilmsgtunnel">
         <permission name="android.permission.INTERACT_ACROSS_USERS"/>
     </privapp-permissions>
-
 </permissions>
