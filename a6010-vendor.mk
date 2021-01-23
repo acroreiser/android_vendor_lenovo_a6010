@@ -311,6 +311,15 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/system/etc/permissions/com.motorola.timeweatherwidget.library.xml:system/etc/permissions/com.motorola.timeweatherwidget.library.xml
 
+# Dolby
+PRODUCT_COPY_FILES += \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libstagefright_soft_ac4dec.so:system/vendor/lib/libstagefright_soft_ac4dec.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libstagefright_soft_ddpdec.so:system/vendor/lib/libstagefright_soft_ddpdec.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/soundfx/libdseffect.so:system/vendor/lib/soundfx/libdseffect.so \
+    vendor/lenovo/a6010/proprietary/system/etc/ds1-default.xml:system/etc/ds1-default.xml \
+    vendor/lenovo/a6010/proprietary/system/etc/permissions/android.dolby.xml:system/etc/permissions/android.dolby.xml \
+    vendor/lenovo/a6010/proprietary/system/etc/sysconfig/dolby_whitelist.xml:system/etc/sysconfig/dolby_whitelist.xml
+
 PRODUCT_PACKAGES += \
     QPerformance \
     UxPerformance \
@@ -322,4 +331,7 @@ PRODUCT_PACKAGES += \
     com.qti.snapdragon.sdk.display \
     colorservice \
     TimeWeather \
-    com.motorola.timeweatherwidget.library
+    com.motorola.timeweatherwidget.library \
+    Ds \
+    DsUI \
+    dolby_ds

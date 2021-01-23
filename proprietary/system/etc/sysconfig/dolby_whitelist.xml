@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<config>
+    <!-- Whitelist Dolby packages from doze -->
+    <allow-in-power-save package="com.dolby" />
+    <allow-in-power-save package="com.dolby.ds1appUI" />
+</config>
