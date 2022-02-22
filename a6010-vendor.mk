@@ -429,6 +429,10 @@ PRODUCT_PACKAGES += \
 	dolby_dax
 # END Dolby Atmos
 
+# Legacy linkerconfig for Project Treble
+PRODUCT_COPY_FILES += \
+    vendor/lenovo/a6010/proprietary/vendor/bin/linkerconfig-legacy:$(TARGET_COPY_OUT_VENDOR)/bin/linkerconfig-legacy
+
 PRODUCT_PACKAGES += \
     shutdownlistener \
     qcnvitems \
