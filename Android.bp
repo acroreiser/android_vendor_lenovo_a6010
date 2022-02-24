@@ -9,11 +9,12 @@ cc_prebuilt_library_shared {
 	},
 	target: {
 		android_arm: {
-			srcs: ["proprietary/system/lib/vendor.qti.hardware.iop@1.0.so"],
+			srcs: ["proprietary/vendor/lib/vendor.qti.hardware.iop@1.0.so"],
 		},
 	},
 	check_elf_files: false,
 	prefer: true,
+	soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -24,11 +25,12 @@ cc_prebuilt_library_shared {
 	},
 	target: {
 		android_arm: {
-			srcs: ["proprietary/system/lib/vendor.qti.hardware.iop@2.0.so"],
+			srcs: ["proprietary/vendor/lib/vendor.qti.hardware.iop@2.0.so"],
 		},
 	},
 	check_elf_files: false,
 	prefer: true,
+	soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -39,7 +41,7 @@ cc_prebuilt_library_shared {
 	},
 	target: {
 		android_arm: {
-			srcs: ["proprietary/system/lib/sensors.a6000__.so"],
+			srcs: ["proprietary/vendor/lib/sensors.a6000__.so"],
 		},
 	},
 	shared_libs: [
@@ -50,29 +52,33 @@ cc_prebuilt_library_shared {
 		"libxml2"
 		],
 	prefer: true,
+	soc_specific: true,
 }
 
 dex_import {
 	name: "QtiTelephonyServicelibrary",
 	owner: "lenovo",
-	jars: ["proprietary/system/framework/QtiTelephonyServicelibrary.jar"],
+	jars: ["proprietary/vendor/framework/QtiTelephonyServicelibrary.jar"],
+	soc_specific: true,
 }
 
 dex_import {
 	name: "qcnvitems",
 	owner: "lenovo",
-	jars: ["proprietary/system/framework/qcnvitems.jar"],
+	jars: ["proprietary/vendor/framework/qcnvitems.jar"],
+	soc_specific: true,
 }
 
 dex_import {
 	name: "qcrilhook",
 	owner: "lenovo",
-	jars: ["proprietary/system/framework/qcrilhook.jar"],
+	jars: ["proprietary/vendor/framework/qcrilhook.jar"],
+	soc_specific: true,
 }
 
 dex_import {
 	name: "dolby_dax",
 	owner: "lenovo",
-	jars: ["proprietary/system/framework/dolby_dax.jar"],
+	jars: ["proprietary/vendor/framework/dolby_dax.jar"],
 	soc_specific: true,
 }

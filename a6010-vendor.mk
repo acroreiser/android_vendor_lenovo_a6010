@@ -305,25 +305,25 @@ PRODUCT_COPY_FILES += \
 
 # RIL & QMI stack from msm8916_32 LA.BR.1.2.9.1-02310-8x16.0
 PRODUCT_COPY_FILES += \
-    vendor/lenovo/a6010/proprietary/system/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
-    vendor/lenovo/a6010/proprietary/system/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
-    vendor/lenovo/a6010/proprietary/system/etc/permissions/privapp-permissions-qti.xml:system/etc/permissions/privapp-permissions-qti.xml \
-    vendor/lenovo/a6010/proprietary/system/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
-    vendor/lenovo/a6010/proprietary/system/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/lenovo/a6010/proprietary/system/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
-    vendor/lenovo/a6010/proprietary/system/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
-    vendor/lenovo/a6010/proprietary/system/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
-    vendor/lenovo/a6010/proprietary/system/etc/sysconfig/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml \
-    vendor/lenovo/a6010/proprietary/system/lib/com.qualcomm.qti.dpm.api@1.0.so:system/lib/com.qualcomm.qti.dpm.api@1.0.so \
-    vendor/lenovo/a6010/proprietary/system/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
-    vendor/lenovo/a6010/proprietary/system/lib/com.qualcomm.qti.imscmservice@1.1.so:system/lib/com.qualcomm.qti.imscmservice@1.1.so \
-    vendor/lenovo/a6010/proprietary/system/lib/libdpmctmgr.so:system/lib/libdpmctmgr.so \
-    vendor/lenovo/a6010/proprietary/system/lib/libdpmfdmgr.so:system/lib/libdpmfdmgr.so \
-    vendor/lenovo/a6010/proprietary/system/lib/libdpmframework.so:system/lib/libdpmframework.so \
-    vendor/lenovo/a6010/proprietary/system/lib/libdpmnsrm.so:system/lib/libdpmnsrm.so \
-    vendor/lenovo/a6010/proprietary/system/lib/libdpmtcm.so:system/lib/libdpmtcm.so \
-    vendor/lenovo/a6010/proprietary/system/lib/libqmi_cci_system.so:system/lib/libqmi_cci_system.so \
-    vendor/lenovo/a6010/proprietary/system/lib/vendor.qti.hardware.data.latency@1.0.so:system/lib/vendor.qti.hardware.data.latency@1.0.so \
+    vendor/lenovo/a6010/proprietary/vendor/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/dpm/dpm.conf \
+    vendor/lenovo/a6010/proprietary/vendor/etc/dpm/nsrm/NsrmConfiguration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dpm/nsrm/NsrmConfiguration.xml \
+    vendor/lenovo/a6010/proprietary/vendor/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/privapp-permissions-qti.xml \
+    vendor/lenovo/a6010/proprietary/vendor/etc/permissions/qcnvitems.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcnvitems.xml \
+    vendor/lenovo/a6010/proprietary/vendor/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcrilhook.xml \
+    vendor/lenovo/a6010/proprietary/vendor/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_libpermissions.xml \
+    vendor/lenovo/a6010/proprietary/vendor/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_permissions.xml \
+    vendor/lenovo/a6010/proprietary/vendor/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/telephonyservice.xml \
+    vendor/lenovo/a6010/proprietary/vendor/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/qti_whitelist.xml \
+    vendor/lenovo/a6010/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.dpm.api@1.0.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.imscmservice@1.0.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.imscmservice@1.1.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libdpmctmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpmctmgr.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libdpmfdmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpmfdmgr.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libdpmframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpmframework.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libdpmnsrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpmnsrm.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libdpmtcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpmtcm.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libqmi_cci_system.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_cci_system.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/vendor.qti.hardware.data.latency@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.latency@1.0.so \
     vendor/lenovo/a6010/proprietary/vendor/bin/dpmQmiMgr:$(TARGET_COPY_OUT_VENDOR)/bin/dpmQmiMgr \
     vendor/lenovo/a6010/proprietary/vendor/bin/irsc_util:$(TARGET_COPY_OUT_VENDOR)/bin/irsc_util \
     vendor/lenovo/a6010/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
@@ -416,12 +416,12 @@ PRODUCT_COPY_FILES += \
 	vendor/lenovo/a6010/proprietary/vendor/etc/init/vendor.dolby.hardware.dms@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.hardware.dms@1.0-service.rc \
 	vendor/lenovo/a6010/proprietary/vendor/etc/dolby/dap-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dap-default.xml \
 	vendor/lenovo/a6010/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
-	vendor/lenovo/a6010/proprietary/system/etc/permissions/dolby_dax.xml:system/etc/permissions/dolby_dax.xml \
-	vendor/lenovo/a6010/proprietary/system/etc/permissions/privapp-com.dolby.atmos.xml:system/etc/permissions/privapp-com.dolby.atmos.xml \
-	vendor/lenovo/a6010/proprietary/system/etc/permissions/privapp-com.dolby.daxservice.xml:system/etc/permissions/privapp-com.dolby.daxservice.xml \
-	vendor/lenovo/a6010/proprietary/system/etc/sysconfig/config-com.dolby.atmos.xml:system/etc/sysconfig/config-com.dolby.atmos.xml \
-	vendor/lenovo/a6010/proprietary/system/etc/sysconfig/config-com.dolby.daxappui.xml:system/etc/sysconfig/config-com.dolby.daxappui.xml \
-	vendor/lenovo/a6010/proprietary/system/etc/sysconfig/config-com.dolby.daxservice.xml:system/etc/sysconfig/config-com.dolby.daxservice.xml
+	vendor/lenovo/a6010/proprietary/vendor/etc/permissions/dolby_dax.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/dolby_dax.xml \
+	vendor/lenovo/a6010/proprietary/vendor/etc/permissions/privapp-com.dolby.atmos.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/privapp-com.dolby.atmos.xml \
+	vendor/lenovo/a6010/proprietary/vendor/etc/permissions/privapp-com.dolby.daxservice.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/privapp-com.dolby.daxservice.xml \
+	vendor/lenovo/a6010/proprietary/vendor/etc/sysconfig/config-com.dolby.atmos.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/config-com.dolby.atmos.xml \
+	vendor/lenovo/a6010/proprietary/vendor/etc/sysconfig/config-com.dolby.daxappui.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/config-com.dolby.daxappui.xml \
+	vendor/lenovo/a6010/proprietary/vendor/etc/sysconfig/config-com.dolby.daxservice.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/config-com.dolby.daxservice.xml
 
 PRODUCT_PACKAGES += \
 	DaxUI \
