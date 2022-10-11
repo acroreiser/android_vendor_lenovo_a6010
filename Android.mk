@@ -20,6 +20,19 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),a6010)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := BaconCamera_a6010
+LOCAL_MODULE_OWNER := lenovo
+LOCAL_SRC_FILES := proprietary/vendor/app/BaconCamera_a6010/BaconCamera_a6010.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_ENFORCE_USES_LIBRARIES := false
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := shutdownlistener
 LOCAL_MODULE_OWNER := lenovo
 LOCAL_SRC_FILES := proprietary/vendor/app/shutdownlistener/shutdownlistener.apk

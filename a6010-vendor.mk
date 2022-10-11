@@ -427,6 +427,19 @@ PRODUCT_PACKAGES += \
 	dolby_dax
 # END Dolby Atmos
 
+# Bacon Camera libs
+PRODUCT_COPY_FILES += \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libBaconCamera.so:system/vendor/lib/libBaconCamera.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libBulbMode.so:system/vendor/lib/libBulbMode.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libClearFlash.so:system/vendor/lib/libClearFlash.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libDenoiser.so:system/vendor/lib/libDenoiser.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libPanorama.so:system/vendor/lib/libPanorama.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libRawToDng.so:system/vendor/lib/libRawToDng.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libRawUtils.so:system/vendor/lib/libRawUtils.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libSuperResolution.so:system/vendor/lib/libSuperResolution.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libTinyPlanet.so:system/vendor/lib/libTinyPlanet.so
+# END Bacon Camera libs
+
 PRODUCT_PACKAGES += \
     shutdownlistener \
     qcnvitems \
@@ -437,4 +450,5 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.iop@1.0 \
     vendor.qti.hardware.iop@2.0 \
     sensors.a6000__ \
-    libOpenCL
+    libOpenCL \
+    BaconCamera_a6010
