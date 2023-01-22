@@ -246,6 +246,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/lib/libaptX_encoder.so:system/vendor/lib/libaptX_encoder.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libaptXHD_encoder.so:system/vendor/lib/libaptXHD_encoder.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libldacBT_enc.so:system/vendor/lib/libldacBT_enc.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libldacBT_abr.so:system/vendor/lib/libldacBT_abr.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so
 
 # GNSS stack from Jio LS-5701-J (jioospro) Jio/jioospro/jioospro:11/JIO_GO-R.11.00.023.00/2300:user/release-keys
