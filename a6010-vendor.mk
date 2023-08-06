@@ -298,7 +298,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/lib/vendor.qti.gnss@2.1.so:system/vendor/lib/vendor.qti.gnss@2.1.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/vendor.qti.gnss@3.0.so:system/vendor/lib/vendor.qti.gnss@3.0.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/vendor.qti.gnss@4.0-service.so:system/vendor/lib/vendor.qti.gnss@4.0-service.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/vendor.qti.gnss@4.0.so:system/vendor/lib/vendor.qti.gnss@4.0.so
+    vendor/lenovo/a6010/proprietary/vendor/lib/vendor.qti.gnss@4.0.so:system/vendor/lib/vendor.qti.gnss@4.0.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libasn1crt.so:system/vendor/lib/libasn1crt.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so
 
 # RIL & QMI stack from msm8916_32 LA.BR.1.2.9.1-02310-8x16.0
 PRODUCT_COPY_FILES += \
