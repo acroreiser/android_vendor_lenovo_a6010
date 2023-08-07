@@ -398,6 +398,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/bin/parted:system/vendor/bin/parted
 
+# hackbench
+PRODUCT_COPY_FILES += \
+    vendor/lenovo/a6010/proprietary/vendor/bin/hackbench:system/vendor/bin/hackbench
+
 # OMX Qcom HEVC decoder
 PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
