@@ -448,6 +448,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/lib/libTinyPlanet.so:system/vendor/lib/libTinyPlanet.so
 # END Bacon Camera libs
 
+# Legacy prebuilts
+PRODUCT_COPY_FILES += \
+    vendor/lenovo/a6010/prebuilts/vndk/v28/arm/arch-arm-armv7-a-neon/shared/vndk-sp/libbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbase-v28.so
+
 PRODUCT_PACKAGES += \
     shutdownlistener \
     qcnvitems \
