@@ -452,6 +452,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/prebuilts/vndk/v28/arm/arch-arm-armv7-a-neon/shared/vndk-sp/libbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbase-v28.so
 
+PRODUCT_COPY_FILES += \
+    vendor/lenovo/a6010/proprietary/vendor/lib/hw/audio.a2dp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.a2dp.msm8916.so
+
 PRODUCT_PACKAGES += \
     shutdownlistener \
     qcnvitems \
