@@ -85,10 +85,3 @@ dex_import {
 	owner: "lenovo",
 	jars: ["proprietary/system/framework/qcrilhook.jar"],
 }
-
-dex_import {
-	name: "dolby_dax",
-	owner: "lenovo",
-	jars: ["proprietary/system/framework/dolby_dax.jar"],
-	soc_specific: true,
-}
