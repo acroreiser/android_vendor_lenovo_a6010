@@ -251,7 +251,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/lib/libldacBT_abr.so:system/vendor/lib/libldacBT_abr.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so
 
-# GNSS stack from Jio LS-5701-J (jioospro) Jio/jioospro/jioospro:11/JIO_GO-R.11.00.023.00/2300:user/release-keys
+# GNSS stack from Samsung Galaxy M11 SM-M115F samsung/m11qnsxx/m11q:12/SP1A.210812.016/M115FXXU5CWE3:user/release-keys
+# and partially from Jio LS-5701-J (jioospro) Jio/jioospro/jioospro:11/JIO_GO-R.11.00.023.00/2300:user/release-keys
 PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/bin/hw/android.hardware.gnss@2.1-service-qti:system/vendor/bin/hw/android.hardware.gnss@2.1-service-qti \
     vendor/lenovo/a6010/proprietary/vendor/bin/garden_app:system/vendor/bin/garden_app \
@@ -290,7 +291,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/lib/liblowi_wifihal.so:system/vendor/lib/liblowi_wifihal.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libpdmapper.so:system/vendor/lib/libpdmapper.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libpdnotifier.so:system/vendor/lib/libpdnotifier.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libqmi_cci-v30.so:system/vendor/lib/libqmi_cci-v30.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libqmi_cci-v31.so:system/vendor/lib/libqmi_cci-v31.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libslimclient.so:system/vendor/lib/libslimclient.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libxtwifi_server_protocol.so:system/vendor/lib/libxtwifi_server_protocol.so \
@@ -305,7 +306,14 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/lib/vendor.qti.gnss@4.0.so:system/vendor/lib/vendor.qti.gnss@4.0.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libasn1crt.so:system/vendor/lib/libasn1crt.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so
+    vendor/lenovo/a6010/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so:system/vendor/lib/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libloc_api_wds.so:system/vendor/lib/libloc_api_wds.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libqcc_file_agent.so:system/vendor/lib/libqcc_file_agent.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libqsocket.so:system/vendor/lib/libqsocket.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libsemnativecarrierfeature.so:system/vendor/lib/libsemnativecarrierfeature.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/vendor.qti.hardware.qccsyshal@1.0.so:system/vendor/lib/vendor.qti.hardware.qccsyshal@1.0.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/vendor.samsung.hardware.gnss@2.0.so:system/vendor/lib/vendor.samsung.hardware.gnss@2.0.so
 
 # RIL & QMI stack from msm8916_32 LA.BR.1.2.9.1-02310-8x16.0
 PRODUCT_COPY_FILES += \
