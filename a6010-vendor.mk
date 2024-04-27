@@ -53,7 +53,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/lib/libqti-util.so:system/vendor/lib/libqti-util.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libqti-utils.so:system/vendor/lib/libqti-utils.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0.so:system/vendor/lib/vendor.qti.hardware.perf@1.0.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0-aljeter.so:system/vendor/lib/vendor.qti.hardware.perf@1.0-aljeter.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
