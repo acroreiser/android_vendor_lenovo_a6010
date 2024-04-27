@@ -47,7 +47,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service \
     vendor/lenovo/a6010/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
     vendor/lenovo/a6010/proprietary/vendor/etc/perf/perfboostsconfig.xml:system/vendor/etc/perf/perfboostsconfig.xml \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libqti_performance.so:system/vendor/lib/libqti_performance.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libperfgluelayer.so:system/vendor/lib/libperfgluelayer.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libqti-perfd.so:system/vendor/lib/libqti-perfd.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libqti-util.so:system/vendor/lib/libqti-util.so \
@@ -67,13 +66,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/lib/egl/libRBEGL_adreno.so:system/vendor/lib/egl/libRBEGL_adreno.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/egl/libRBGLESv1_CM_adreno.so:system/vendor/lib/egl/libRBGLESv1_CM_adreno.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/egl/libRBGLESv2_adreno.so:system/vendor/lib/egl/libRBGLESv2_adreno.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/vendor.qti.hardware.iop@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.iop@1.0_vendor.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/vendor.qti.hardware.iop@2.0_vendor.so:system/vendor/lib/vendor.qti.hardware.iop@2.0_vendor.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libqti-iopd-client.so:system/vendor/lib/libqti-iopd-client.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libqti-iopd.so:system/vendor/lib/libqti-iopd.so \
-    vendor/lenovo/a6010/proprietary/vendor/bin/hw/vendor.qti.hardware.iop@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.iop@1.0-service \
-    vendor/lenovo/a6010/proprietary/vendor/etc/init/vendor.qti.hardware.iop@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.iop@1.0-service.rc \
-    vendor/lenovo/a6010/proprietary/vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:system/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:system/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
@@ -446,8 +438,6 @@ PRODUCT_PACKAGES += \
     QtiTelephonyServicelibrary \
     QtiTelephonyService \
     qcrilmsgtunnel \
-    vendor.qti.hardware.iop@1.0 \
-    vendor.qti.hardware.iop@2.0 \
     sensors.a6000__ \
     libOpenCL \
     BaconCamera_a6010

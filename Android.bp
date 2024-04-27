@@ -2,36 +2,6 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.iop@1.0",
-	owner: "qualcomm",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/system/lib/vendor.qti.hardware.iop@1.0.so"],
-		},
-	},
-	check_elf_files: false,
-	prefer: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.iop@2.0",
-	owner: "qualcomm",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/system/lib/vendor.qti.hardware.iop@2.0.so"],
-		},
-	},
-	check_elf_files: false,
-	prefer: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "sensors.a6000__",
 	owner: "qualcomm",
 	strip: {
