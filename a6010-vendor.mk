@@ -33,7 +33,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0.so:system/vendor/lib/vendor.qti.hardware.fm@1.0.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so:system/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/vendor.qti.hardware.btconfigstore@1.0-drx.so:system/vendor/lib/vendor.qti.hardware.btconfigstore@1.0-drx.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libqti_vndfwk_detect.so:system/vendor/lib/libqti_vndfwk_detect.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libqti_vndfwk_detect-drx.so:system/vendor/lib/libqti_vndfwk_detect-drx.so \
     vendor/lenovo/a6010/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/lenovo/a6010/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/lenovo/a6010/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
