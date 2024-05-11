@@ -17,7 +17,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),a6010)
+ifneq (, $(filter $(TARGET_DEVICE),a6000 a6010))
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := BaconCamera_a6010
