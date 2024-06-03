@@ -99,9 +99,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/lib/libc2d30-a5xx.so:system/vendor/lib/libc2d30-a5xx.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libc2d30_bltlib.so:system/vendor/lib/libc2d30_bltlib.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libchromatix_gc2355_8916_common.so:system/vendor/lib/libchromatix_gc2355_8916_common.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libchromatix_gc2355_8916_default_video.so:system/vendor/lib/libchromatix_gc2355_8916_default_video.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libchromatix_gc2355_8916_preview.so:system/vendor/lib/libchromatix_gc2355_8916_preview.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libchromatix_imx219_2gong_common.so:system/vendor/lib/libchromatix_imx219_2gong_common.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libchromatix_imx219_2gong_default_video.so:system/vendor/lib/libchromatix_imx219_2gong_default_video.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libchromatix_imx219_2gong_liveshot.so:system/vendor/lib/libchromatix_imx219_2gong_liveshot.so \
@@ -174,18 +171,11 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libmmcamera_gc2355_8916.so:system/vendor/lib/libmmcamera_gc2355_8916.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libmmcamera_imx219_q8n13a.so:system/vendor/lib/libmmcamera_imx219_q8n13a.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libmmcamera_sony_imx219_eeprom.so:system/vendor/lib/libmmcamera_sony_imx219_eeprom.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libmmcamera_lenovo_ov5670_eeprom.so:system/vendor/lib/libmmcamera_lenovo_ov5670_eeprom.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libmmcamera_ov5670_q5v41b.so:system/vendor/lib/libmmcamera_ov5670_q5v41b.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libmmcamera_ov13850.so:system/vendor/lib/libmmcamera_ov13850.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libmmcamera_ov8865_q8v18a.so:system/vendor/lib/libmmcamera_ov8865_q8v18a.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so:system/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libmmcamera_wingtech_ov13850_eeprom.so:system/vendor/lib/libmmcamera_wingtech_ov13850_eeprom.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
