@@ -401,19 +401,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libOmxVdecHevc.so:system/vendor/lib/libOmxVdecHevc.so
 
-# Bacon Camera libs
-PRODUCT_COPY_FILES += \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libBaconCamera.so:system/vendor/lib/libBaconCamera.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libBulbMode.so:system/vendor/lib/libBulbMode.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libClearFlash.so:system/vendor/lib/libClearFlash.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libDenoiser.so:system/vendor/lib/libDenoiser.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libPanorama.so:system/vendor/lib/libPanorama.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libRawToDng.so:system/vendor/lib/libRawToDng.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libRawUtils.so:system/vendor/lib/libRawUtils.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libSuperResolution.so:system/vendor/lib/libSuperResolution.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libTinyPlanet.so:system/vendor/lib/libTinyPlanet.so
-# END Bacon Camera libs
-
 # Legacy prebuilts
 PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/prebuilts/vndk/v28/arm/arch-arm-armv7-a-neon/shared/vndk-sp/libbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbase-v28.so
@@ -429,5 +416,4 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     qcrilmsgtunnel \
     sensors.a6000__ \
-    libOpenCL \
-    BaconCamera_a6010
+    libOpenCL
