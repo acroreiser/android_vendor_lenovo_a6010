@@ -229,8 +229,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/lib/libmmparser_lite.so:system/vendor/lib/libmmparser_lite.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libOmxVpp.so:system/vendor/lib/libOmxVpp.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libvpplibrary.so:system/vendor/lib/libvpplibrary.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libldacBT_enc.so:system/vendor/lib/libldacBT_enc.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libldacBT_abr.so:system/vendor/lib/libldacBT_abr.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so
 
 # GNSS stack from Samsung Galaxy M11 SM-M115F samsung/m11qnsxx/m11q:12/SP1A.210812.016/M115FXXU5CWE3:user/release-keys
