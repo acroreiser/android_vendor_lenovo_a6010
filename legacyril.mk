@@ -13,6 +13,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.radio.apm_sim_not_pwdn=1 \
+    persist.radio.custom_ecc=1 \
+    ril.ecclist=000,08,100,101,102,110,112,118,119,120,122,911,999 \
+    ril.ecclist1=000,08,100,101,102,110,112,118,119,120,122,911,999 \
+    ril.subscription.types=NV,RUIM
+
 PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/legacyril/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/lenovo/a6010/legacyril/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
