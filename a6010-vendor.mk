@@ -226,10 +226,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/etc/qmi_fw.conf:system/vendor/etc/qmi_fw.conf \
     vendor/lenovo/a6010/proprietary/vendor/radio/qcril_database/qcril.db:system/vendor/radio/qcril_database/qcril.db
 
-# Prebuilt Wifi HAL
-PRODUCT_COPY_FILES += \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libwifi-hal-prebuilt.so:system/vendor/lib/libwifi-hal-prebuilt.so
-
 # Thermal Engine
 PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
