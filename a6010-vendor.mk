@@ -249,6 +249,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/prebuilts/vndk/v28/arm/arch-arm-armv7-a-neon/shared/vndk-sp/libbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbase-v28.so
 
+# i18n prebuilts for RIL
+PRODUCT_COPY_FILES += \
+    vendor/lenovo/a6010/prebuilts/i18n/libandroidicu.so:$(TARGET_COPY_OUT_VENDOR)/lib/libandroidicu.so \
+    vendor/lenovo/a6010/prebuilts/i18n/libicui18n.so:$(TARGET_COPY_OUT_VENDOR)/lib/libicui18n.so \
+    vendor/lenovo/a6010/prebuilts/i18n/libicuuc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libicuuc.so
+
 PRODUCT_PACKAGES += \
     shutdownlistener \
     qcnvitems \
