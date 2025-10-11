@@ -9,7 +9,7 @@ cc_prebuilt_library_shared {
 	},
 	target: {
 		android_arm: {
-			srcs: ["proprietary/system/lib/sensors.a6000__.so"],
+			srcs: ["proprietary/vendor/lib/sensors.a6000__.so"],
 		},
 	},
 	shared_libs: [
@@ -19,6 +19,7 @@ cc_prebuilt_library_shared {
 		"libutils",
 		"libxml2"
 		],
+	soc_specific: true,
 	prefer: true,
 }
 
