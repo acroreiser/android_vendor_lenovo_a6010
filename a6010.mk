@@ -15,13 +15,13 @@
 
 # A6010 Camera sensors
 PRODUCT_COPY_FILES += \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libmmcamera_wingtech_ov13850_eeprom.so:system/vendor/lib/libmmcamera_wingtech_ov13850_eeprom.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so:system/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libmmcamera_ov8865_q8v18a.so:system/vendor/lib/libmmcamera_ov8865_q8v18a.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libmmcamera_ov5670_q5v41b.so:system/vendor/lib/libmmcamera_ov5670_q5v41b.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libmmcamera_ov13850.so:system/vendor/lib/libmmcamera_ov13850.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libmmcamera_lenovo_ov5670_eeprom.so:system/vendor/lib/libmmcamera_lenovo_ov5670_eeprom.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libchromatix_gc2355_8916_common-a6010.so:system/vendor/lib/libchromatix_gc2355_8916_common.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libchromatix_gc2355_8916_default_video-a6010.so:system/vendor/lib/libchromatix_gc2355_8916_default_video.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libchromatix_gc2355_8916_preview-a6010.so:system/vendor/lib/libchromatix_gc2355_8916_preview.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libmmcamera_gc2355_8916-a6010.so:system/vendor/lib/libmmcamera_gc2355_8916.so
+    vendor/lenovo/a6010/proprietary/vendor/lib/libmmcamera_wingtech_ov13850_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_wingtech_ov13850_eeprom.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_q8v18a_eeprom.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libmmcamera_ov8865_q8v18a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov8865_q8v18a.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libmmcamera_ov5670_q5v41b.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5670_q5v41b.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libmmcamera_ov13850.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov13850.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libmmcamera_lenovo_ov5670_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_lenovo_ov5670_eeprom.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libchromatix_gc2355_8916_common-a6010.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_gc2355_8916_common.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libchromatix_gc2355_8916_default_video-a6010.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_gc2355_8916_default_video.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libchromatix_gc2355_8916_preview-a6010.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_gc2355_8916_preview.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libmmcamera_gc2355_8916-a6010.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_gc2355_8916.so

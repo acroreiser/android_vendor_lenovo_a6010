@@ -14,7 +14,7 @@
 # limitations under the License.
 
 PRODUCT_COPY_FILES += \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libmmcamera_gc2355_8916.so:system/vendor/lib/libmmcamera_gc2355_8916.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libchromatix_gc2355_8916_common.so:system/vendor/lib/libchromatix_gc2355_8916_common.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libchromatix_gc2355_8916_default_video.so:system/vendor/lib/libchromatix_gc2355_8916_default_video.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libchromatix_gc2355_8916_preview.so:system/vendor/lib/libchromatix_gc2355_8916_preview.so
+    vendor/lenovo/a6010/proprietary/vendor/lib/libmmcamera_gc2355_8916.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_gc2355_8916.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libchromatix_gc2355_8916_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_gc2355_8916_common.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libchromatix_gc2355_8916_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_gc2355_8916_default_video.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libchromatix_gc2355_8916_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_gc2355_8916_preview.so
