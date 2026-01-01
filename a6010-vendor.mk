@@ -256,11 +256,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/prebuilts/i18n/libicuuc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libicuuc.so
 
 PRODUCT_PACKAGES += \
-    shutdownlistener \
     qcnvitems \
     qcrilhook \
     QtiTelephonyServicelibrary \
-    QtiTelephonyService \
-    qcrilmsgtunnel \
     sensors.a6000__ \
     libOpenCL

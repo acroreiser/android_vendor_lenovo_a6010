@@ -102,3 +102,8 @@ PRODUCT_COPY_FILES += \
 # GLES-enabled surfaceflinger for GSI
 PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/prebuilts/system/bin/surfaceflinger:$(TARGET_COPY_OUT_VENDOR)/bin/surfaceflinger-gles
+
+PRODUCT_PACKAGES += \
+    shutdownlistener \
+    QtiTelephonyService \
+    qcrilmsgtunnel
