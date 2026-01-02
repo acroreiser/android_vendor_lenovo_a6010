@@ -58,4 +58,4 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/legacyril/vendor/lib/libaudioclient_shim.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioclient_shim.so
 
 PRODUCT_PACKAGES += \
-    libcutils_shim
+    libcutils_shim.vendor
