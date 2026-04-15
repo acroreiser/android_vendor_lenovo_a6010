@@ -99,10 +99,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/liboemcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcamera.so
 
-# GLES-enabled surfaceflinger for GSI
-PRODUCT_COPY_FILES += \
-    vendor/lenovo/a6010/prebuilts/system/bin/surfaceflinger:$(TARGET_COPY_OUT_VENDOR)/bin/surfaceflinger-gles
-
 PRODUCT_PACKAGES += \
     shutdownlistener \
     QtiTelephonyService \
